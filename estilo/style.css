@@ -102,8 +102,15 @@ footer{
     padding: 10px;
 }
 
-footer > a{
+a{
     color: rgb(186, 186, 186);
     font-style: italic;
 }
 
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}
